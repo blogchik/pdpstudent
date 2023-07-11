@@ -74,17 +74,17 @@
 
 ::-webkit-scrollbar-track
 {
-    background: var(--clr-light); 
+    background: var(--clr-primary-dark-low); 
 }
 
 ::-webkit-scrollbar-thumb
 {
-    background: var(--clr-slate600); 
+    background: var(--clr-primary-dark); 
 }
 
 ::-webkit-scrollbar-thumb:hover
 {
-    background: var(--clr-rose); 
+    background: var(--clr-primary); 
 }
 
 ::-moz-selection
@@ -448,6 +448,7 @@ body
     align-items: unset;
     justify-content: unset;
     gap: 6px;
+    padding-bottom: 10px;
 }
 
 .schedule .items .item
